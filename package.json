@@ -1,0 +1,15 @@
+{
+  "name": "@f/range",
+  "description": "Generate a range of numbers with a given (optional) step size",
+  "repository": "git://github.com/micro-js/range.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
